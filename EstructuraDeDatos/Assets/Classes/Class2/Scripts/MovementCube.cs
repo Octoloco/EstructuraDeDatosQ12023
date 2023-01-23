@@ -15,7 +15,12 @@ public class MovementCube : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        Move();
+        
+    }
 
+    private void Move()
+    {
         if (Input.GetKey(KeyCode.D))
         {
             transform.Translate(Vector3.right * Time.deltaTime * speed);
