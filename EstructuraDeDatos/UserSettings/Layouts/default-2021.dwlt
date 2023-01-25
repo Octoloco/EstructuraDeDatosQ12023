@@ -19,9 +19,9 @@ MonoBehaviour:
     width: 1920
     height: 989
   m_ShowMode: 4
-  m_Title: Scene
+  m_Title: Project
   m_RootView: {fileID: 6}
-  m_MinSize: {x: 875, y: 371}
+  m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
 --- !u!114 &2
@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 503, y: 321}
   m_MaxSize: {x: 16192, y: 12117}
   vertical: 0
-  controlID: 87
+  controlID: 114
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -150,7 +150,7 @@ MonoBehaviour:
     y: 0
     width: 1920
     height: 989
-  m_MinSize: {x: 875, y: 371}
+  m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_UseTopView: 1
   m_TopViewHeight: 30
@@ -223,7 +223,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 321}
   m_MaxSize: {x: 8096, y: 12117}
   vertical: 1
-  controlID: 88
+  controlID: 50
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -248,7 +248,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 89
+  controlID: 41
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -317,22 +317,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Alumno/Homework/Homework1/Scene
+    - Assets/Alumno/Tarea/Tarea1
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Alumno/Homework/Homework1/Scene
+  - Assets/Alumno/Tarea/Tarea1
   m_LastFoldersGridSize: 64
   m_LastProjectPath: C:\Users\Diego\Desktop\GameDev\Unitec\EstructuraDeDatosQ12023\EstructuraDeDatos
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 34}
-    m_SelectedIDs: 8a640000
-    m_LastClickedID: 25738
-    m_ExpandedIDs: 000000001e640000226400003a64000048640000766400007a6400007e6400009866000000ca9a3b
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 8e640000
+    m_LastClickedID: 25742
+    m_ExpandedIDs: 0000000032640000366400003864000056640000586400006264000064640000866400008a6400008e64000090640000926400009464000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -488,9 +488,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 20bcffff
-      m_LastClickedID: -17376
-      m_ExpandedIDs: ccbfffff90c0ffff68d7ffff1cd9ffffb8d9ffff90dcffffeedcffff5ce2ffff
+      m_SelectedIDs: 80660000
+      m_LastClickedID: 0
+      m_ExpandedIDs: a8d9ffff88ddffffccddffff4ce2ffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -772,9 +772,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 6.1408324, y: 3.4563956, z: 12.976536}
+    m_Target: {x: 157.43971, y: 39.632614, z: -60.12491}
     speed: 2
-    m_Value: {x: 6.1408324, y: 3.4563956, z: 12.976536}
+    m_Value: {x: 157.43971, y: 39.632614, z: -60.12491}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -823,11 +823,11 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: 0.019312773, y: -0.974936, z: 0.091762476, w: 0.20231834}
     speed: 2
-    m_Value: {x: 0.019007256, y: -0.9749623, z: 0.09028973, w: 0.20232418}
+    m_Value: {x: -0.019310592, y: 0.97482574, z: -0.0917521, w: -0.20229545}
   m_Size:
-    m_Target: 5.560325
+    m_Target: 144.446
     speed: 2
-    m_Value: 5.320885
+    m_Value: 144.446
   m_Ortho:
     m_Target: 0
     speed: 2
