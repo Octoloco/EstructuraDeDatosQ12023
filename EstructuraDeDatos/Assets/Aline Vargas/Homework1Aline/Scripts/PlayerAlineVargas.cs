@@ -12,7 +12,7 @@ public class PlayerAlineVargas : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Name = Alinestaa;
+        Name = "Alinestaa";
         Life = 45;
         Experience = 0;
         Level = 1;
@@ -31,7 +31,7 @@ public class PlayerAlineVargas : MonoBehaviour
     public int EnemyDefeat()
     {
         int enemyDefeat = Experience + 30;
-        return enemyDefeat
+        return enemyDefeat;
     }
     public int LevelUp()
     {
