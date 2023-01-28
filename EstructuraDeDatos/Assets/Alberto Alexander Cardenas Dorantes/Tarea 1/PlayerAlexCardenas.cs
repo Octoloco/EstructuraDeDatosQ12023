@@ -26,44 +26,45 @@ public class PlayerAlexCardenas : MonoBehaviour
         Knowresistencia();
 
     }
-}
 
-private void KnowVida()
-{
-    if (Input.GetKey(KeyCode.A))
+    private void KnowVida()
     {
-        UnityEngine.Debug.Log("Tu vida es de" + Vida);
+        if (Input.GetKey(KeyCode.A))
+        {
+            Debug.Log("Tu vida es de" + Vida);
+        }
     }
-}
 
-private void Knowescudo()
-{
-    if (input.GetKey(KeyCode.B))
+    private void Knowescudo()
     {
-        UnityEngine.Debug.Log("Tu escudo tiene" + escudo);
+        if (input.GetKey(KeyCode.B))
+        {
+            Debug.Log("Tu escudo tiene" + escudo);
+        }
     }
-}
 
-private void Knowdaño()
-{
-    if (Input.GetKey(KeyCode.C))
+    private void Knowdaño()
     {
-        UnityEngine.Debug.Log("Tu Daño es de" + Daño);
+        if (Input.GetKey(KeyCode.C))
+        {
+            Debug.Log("Tu Daño es de" + Daño);
+        }
     }
-}
 
-private void Knowmagia()
-{
-    if (input.GetKey(KeyCode.D))
+    private void Knowmagia()
     {
-        UnityEngine.Debug.Log("Tu Magia es de" + magia);
+        if (input.GetKey(KeyCode.D))
+        {
+            Debug.Log("Tu Magia es de" + magia);
+        }
     }
-}
 
-private void Knowresistencia()
-{
-    if (Input.GetKey(KeyCode.E))
+    private void Knowresistencia()
     {
-        UnityEngine.Debug.Log("Tu Resistencia es de" + resistencia);
+        if (Input.GetKey(KeyCode.E))
+        {
+            Debug.Log("Tu Resistencia es de" + resistencia);
+        }
     }
+
 }
