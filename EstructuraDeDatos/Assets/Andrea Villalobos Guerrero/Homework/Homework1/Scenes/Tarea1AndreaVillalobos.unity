@@ -1197,7 +1197,7 @@ GameObject:
   - component: {fileID: 923063069}
   - component: {fileID: 923063068}
   m_Layer: 0
-  m_Name: Capsule
+  m_Name: PlayerAndreaVillalobos
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
