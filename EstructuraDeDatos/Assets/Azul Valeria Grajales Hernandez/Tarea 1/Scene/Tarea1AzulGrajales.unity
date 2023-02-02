@@ -825,9 +825,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 20ab1127feec14841b6307930b6288bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  life: 0
-  shield: 0
-  damage: 0
+  vida: 0
+  escudo: 0
+  "da\xF1o": 0
   items: 0
 --- !u!65 &950514473
 BoxCollider:
@@ -862,7 +862,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 9926bed9c99f52b4ba25998cef476ce4, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
