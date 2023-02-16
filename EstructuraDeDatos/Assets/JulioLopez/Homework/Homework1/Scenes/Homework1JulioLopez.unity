@@ -4204,7 +4204,7 @@ GameObject:
   - component: {fileID: 868436977}
   - component: {fileID: 868436976}
   m_Layer: 0
-  m_Name: Capsule
+  m_Name: personaje
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6402,14 +6402,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1400906723}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: -10}
+  m_LocalRotation: {x: -0, y: -0.07331387, z: -0, w: 0.9973089}
+  m_LocalPosition: {x: -23.2, y: 15.2, z: 6.9}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -8.409, z: 0}
 --- !u!1 &1415799306
 GameObject:
   m_ObjectHideFlags: 0
@@ -8169,7 +8169,7 @@ GameObject:
   - component: {fileID: 1674046230}
   - component: {fileID: 1674046229}
   m_Layer: 0
-  m_Name: Cube
+  m_Name: Suelo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8208,7 +8208,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: e932f4b398620374ca605ca00ea62808, type: 2}
+  - {fileID: 2100000, guid: 2e3e73bb5d5f3744f9644733a790ee91, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

@@ -16,7 +16,11 @@ public class Player1Juliolopez : Camera
     int Mines;
 
     void Healt = 3;
-    void Dead = yes;
+    void Dead = No;
+
+    if(Player1Juliolopez is damagefor Mines(int= 3;))
+        bool Dead = Yes; 
+
     void Stamina = 100;
     void Mines = 5;
 
@@ -33,9 +37,7 @@ void Run()
 }
     
   void Place()
-    if(the Mines 1in explode near Player1JulioLopez  Healt 1in)
-    if (the 3in Mines Explode near Player1JulioLopez Dead yes bool)
-
+ 
 
 
 void Move()
