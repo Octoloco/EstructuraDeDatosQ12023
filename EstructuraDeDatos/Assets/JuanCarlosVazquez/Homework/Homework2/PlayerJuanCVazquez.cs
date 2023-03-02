@@ -4,6 +4,10 @@ using UnityEngine;
 
 public class PlayerJuanCVazquez : MonoBehaviour
 {
+    // Fuente https://www.youtube.com/watch?v=x3FbFa843Pw
+    public float RotationSpeed = 1.0f;
+    private Rigidbody Physics;
+    //
     public float speed = 3;
     public int HP;
     public int SP;
@@ -11,10 +15,15 @@ public class PlayerJuanCVazquez : MonoBehaviour
     public int EXP;
     public int Lvl;
     public int Spd;
-    public int JumpStrenght;
-    // Start is called before the first frame update
+    public float JumpForce=1.0f;
+    
     void Start()
     {
+        // https://www.youtube.com/watch?v=x3FbFa843Pw
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible= false;
+        Physics=GetComponent<Rigidbody>();
+        //
         HP = 70;
         SP = 35;
         attack = 15;
@@ -80,5 +89,15 @@ public class PlayerJuanCVazquez : MonoBehaviour
         {
             transform.Translate(Vector3.forward* Time.deltaTime * speed);
         }
+
+        // fuente https://www.youtube.com/watch?v=x3FbFa843Pw
+        float rotationY = Input.GetAxis("Mouse X");
+        transform.Rotate(new Vector3(0,rotationY * Time.deltaTime * RotationSpeed, 0));
+
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            Physics.AddForce(new Vector3(0, JumpForce, 0), ForceMode.Impulse);
+        }
+        //
     }
 }

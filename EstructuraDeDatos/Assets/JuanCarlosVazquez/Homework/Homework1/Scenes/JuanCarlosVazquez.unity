@@ -17481,35 +17481,15 @@ GameObject:
   - component: {fileID: 1888055073}
   - component: {fileID: 1888055072}
   - component: {fileID: 1888055071}
-  - component: {fileID: 1888055070}
   - component: {fileID: 1888055075}
+  - component: {fileID: 1888055076}
   m_Layer: 0
-  m_Name: Cube (89)
+  m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1888055070
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1888055069}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4a683a62a666be047bbf31f0bb8ddf99, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 3
-  HP: 0
-  SP: 0
-  attack: 0
-  EXP: 0
-  Lvl: 0
-  Spd: 0
-  JumpStrenght: 0
 --- !u!65 &1888055071
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -17603,8 +17583,29 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 112
   m_CollisionDetection: 0
+--- !u!114 &1888055076
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1888055069}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a683a62a666be047bbf31f0bb8ddf99, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RotationSpeed: 300
+  speed: 4
+  HP: 0
+  SP: 0
+  attack: 0
+  EXP: 0
+  Lvl: 0
+  Spd: 0
+  JumpForce: 1
 --- !u!1 &1888330681
 GameObject:
   m_ObjectHideFlags: 0
