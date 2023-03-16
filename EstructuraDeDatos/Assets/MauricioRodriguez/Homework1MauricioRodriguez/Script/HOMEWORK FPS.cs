@@ -14,17 +14,20 @@ public class PLAYER : MonoBehaviour
 
     public float moveSpeed = 2;
     public float runSpeed = 8;
+    public int daño;
+    public int vida;
+    public int vidaExtra;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        Move();
+        Moveplayer();
     }
     public void RestarVida()
     {
@@ -33,7 +36,7 @@ public class PLAYER : MonoBehaviour
 
 
     }
-    Para darle vida extra.
+    //Para darle vida extra.
     public void SumarVida() /* para sumar vida*/
     {
 
@@ -42,24 +45,18 @@ public class PLAYER : MonoBehaviour
         float vidaMas = vida + vidaExtra;
 
     }
-    void Move()
+    void Moveplayer()
     {
-    if (Input.GetKey(KeyCode.W)) /*moivmiento hacia delante*/
-    {
-        transform.Translate(Vector3.left * Time.deltaTime * speed); 
+        if (Input.GetKey(KeyCode.A))
+        {
+            GetComponent<Rigidbody>().AddForce(Vector3.left * 500 * Time.deltaTime);
+        }
+
+        if (Input.GetKey(KeyCode.D))
+        {
+            GetComponent<Rigidbody>().AddForce(Vector3.right * 500 * Time.deltaTime);
+        }
+
+        transform.Translate(Vector3.forward * 5 * Time.deltaTime);
     }
-    if (Input.GetKey(KeyCode.S))
-    {
-        transform.Translate(Vector3.right * Time.deltaTime * speed);
-    }
-    if (Input.GetKey(KeyCode.D))
-    {
-        transform.Translate(Vector3.forward * Time.deltaTime * speed);
-    }
-    if (Input.GetKey(KeyCode.A))
-    {
-        transform.Translate(Vector3.back * Time.deltaTime * speed);
-    }
-    transform.Rotate(0, h_mouse, 0); /*Objeto rota en el eje de y*/*
-    Cam.transform.Rotate(-v_mouse, 0, 0);/*rotanto la camara, con el menos hace que se invierta la direccion de donde se voltea a ver*/
-    }
+}

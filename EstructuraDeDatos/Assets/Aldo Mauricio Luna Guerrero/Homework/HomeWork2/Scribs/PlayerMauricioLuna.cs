@@ -8,15 +8,14 @@ public class PlayerMauricioLuna : MonoBehaviour
     public float RotationSpeed = 1.0f;
     public float JumpForce = 1.0f;
 
-    private Rigydbody physics;
+    private Rigidbody physics;
 
     // Start is called before the first frame update
     void Start()
     {
-        Cursor.LockState = CursorLockMode.Locked;
+        Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
-
-        Physics = GetComponent<Rigidbody>();
+        Rigidbody Physics = GetComponent<Rigidbody>();
     }
 
     // Update is called once per frame
@@ -29,14 +28,14 @@ public class PlayerMauricioLuna : MonoBehaviour
         transform.Translate(new Vector3(horizontal, 0.0f, vertical) * Time.deltaTime * speed);
 
         //Rotacion
-        float rotationY = Imput.GetAxis("Mouse X");
+        float rotationY = Input.GetAxis("Mouse X");
 
         transform.Rotate(new Vector3(0, rotationY * Time.deltaTime * RotationSpeed, 0));
 
         //Salto
-        if (imput.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Space))
         {
-            Physics.AddForce(new Vector3(0, JumpForce, 0), ForceMode.Impulse)
+            Physics.AddForce(new Vector3(0, JumpForce, 0), ForceMode.Impulse);
         }
     }
 }
